@@ -202,6 +202,18 @@
     </div>
   </section><section class="slide">
     <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <div class="card ">
+      <div>
+        <div class="tag">✨ CAREER UPDATE</div>
+        <h2>It’s also time for me to pursue my dream job.</h2>
+        <p class="small">I’ve been preparing for this moment for years.</p>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait fit" src="http://cestuve.github.io/announcement/floorsweeper.png" alt="Cartoon image of Claire on a basketball court pursuing her dream job" />
+      </div>
+    </div>
+  </section><section class="slide">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
     <div class="card center ">
       <div>
         <h2>Therefore...</h2>
@@ -247,7 +259,7 @@
         <p class="small">Also: a deeply unreasonable attachment to measurable learning objectives and learner engagement</p>
       </div>
       <div class="portrait-wrap">
-        <img class="portrait fit" src="https://cestuve.github.io/announcement/group.png" alt="Cartoon high five" />
+        <img class="portrait fit" src="http://cestuve.github.io/announcement/Group2.png" alt="Cartoon high five" />
       </div>
     </div>
   </section><section class="slide">
@@ -276,10 +288,10 @@
     <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
     <div class="card ">
       <div>
-        <div class="tag">🎬 FINAL SLIDE, NATURALLY</div>
+        <div class="tag">🎬 FINAL SLIDE</div>
         
         <p>Thank you for being part of my story here. I’m excited for what’s next, grateful for what’s been, and still very much rooting for you all.</p>
-        <p class="small">Cue the inspirational music and tasteful confetti</p>
+        <p class="small">(cue the inspirational music)</p>
       </div>
       <div class="portrait-wrap">
         <video class="video-frame" src="https://cestuve.github.io/announcement/dunk.mp4" controls autoplay muted loop playsinline></video>
@@ -358,12 +370,12 @@ function show(i) {
   prev.disabled = idx === 0;
   next.textContent = idx === slides.length - 1 ? 'Start Over' : 'Continue';
 
-  // Background music: begin on Slide 6, do not loop, fade out on Slide 9.
-  if (idx === 5) {
+  // Background music: begin on Slide 7, do not loop, fade out on Slide 10.
+  if (idx === 6) {
     startTyAudio();
-  } else if (idx === 8) {
+  } else if (idx === 9) {
     fadeOutTyAudio();
-  } else if (idx < 5 || idx === slides.length - 1) {
+  } else if (idx < 6 || idx === slides.length - 1) {
     resetTyAudio();
   }
 
